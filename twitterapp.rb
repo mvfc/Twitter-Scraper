@@ -1,10 +1,10 @@
 require 'twitter'
 
 stream = Twitter::Streaming::Client.new do |config|
-	config.consumer_key = "h5keOX4XTupVGYgMj9ukua5I4"
-	config.consumer_secret = "4djfoWX4LVCUeONQVX3aVRm5qrH6GI4iKjNorsS7s0FUtVdClz"
-	config.access_token = "38533603-usi9EnlhzNaumOZ8FFfXGVh7gLNBUOOicwqjgIJBC"
-	config.access_token_secret = "iUS3IHgMtmHHVVtMXG8pG0GACoj0cZgjBlHLy7iZl1OiP"
+	config.consumer_key = ""
+	config.consumer_secret = ""
+	config.access_token = ""
+	config.access_token_secret = ""
 end
 
 keywords = ['#csgo', 'runskg']
